@@ -338,7 +338,7 @@
 
 /**
  * (Moving this text to the
- * MainActivity.java file)
+ * JediMindTrick.java file)
  */
 
 /**
@@ -679,7 +679,7 @@ import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class MainActivity extends AppCompatActivity {
+public class JediMindTrick extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -833,7 +833,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(Intent.createChooser(i, "Send mail..."));
             return true;
         } catch (android.content.ActivityNotFoundException ex) {
-            Toast.makeText(MainActivity.this,
+            Toast.makeText(this,
                     "There are no email clients installed.",
                     Toast.LENGTH_SHORT).show();
             return false;
