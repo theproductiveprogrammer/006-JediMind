@@ -1,6 +1,14 @@
 /** The Jedi Mindtrick for Learning Quickly */
 
 /**
+ * https://youtu.be/cXdQ35nH0oY
+ */
+
+/**
+ * jedi-mind-trick.jpg
+ */
+
+/**
  * I've been interested in
  * productivity for years. As part
  * of my quest to become more
@@ -253,7 +261,7 @@
  */
 /**
  * The app is available here:
- * https://play.google.com/store/apps/details?id=com.theproductiveprogrammer.notegrabber
+ * https://play.google.com/store/apps/details?id=blog.theproductiveprogrammer.notegrabber
  *
  * And now I will show you how
  * it was built by using the
@@ -640,7 +648,7 @@
  * Otherwise it was easy enough!
  * It's available here:
  *
- * https://play.google.com/store/apps/details?id=com.theproductiveprogrammer.notegrabber
+ * https://play.google.com/store/apps/details?id=blog.theproductiveprogrammer.notegrabber
  *
  * Well - from Android Zero to
  * Hero in half a day! All
@@ -658,12 +666,12 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -681,12 +689,15 @@ import java.util.Date;
 
 public class JediMindTrick extends AppCompatActivity {
 
+    private static final String DIVIDER = "==================";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
+        myToolbar.setSubtitleTextColor(Color.WHITE);
         myToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -694,12 +705,48 @@ public class JediMindTrick extends AppCompatActivity {
                 moveTaskToBack(true);
             }
         });
+        setNumberOfNotes();
+    }
+
+    private void setNumberOfNotes() {
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        int n = getNumberOfNotes();
+        if(n == 0) myToolbar.setSubtitle("(no notes)");
+        else if(n == 1) myToolbar.setSubtitle("(1 note)");
+        else myToolbar.setSubtitle(String.format("(%d notes)", n));
+    }
+
+    private int getNumberOfNotes() {
+        /* read the file line-by-line
+           and count the number
+           of dividers "=====..."
+         */
+        int num = 0;
+        try {
+            FileInputStream is = openFileInput(filename);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+            StringBuilder sb = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                if(line.equals(DIVIDER)) num++;
+            }
+            reader.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return num;
     }
 
     @Override
     protected void onPause() {
         super.onPause();
         dumpText();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        setNumberOfNotes();
     }
 
     @Override
@@ -755,7 +802,7 @@ public class JediMindTrick extends AppCompatActivity {
         try {
             outputStream = openFileOutput(filename, Context.MODE_APPEND);
             outputStream.write(getCurrentTimeStamp().getBytes());
-            outputStream.write("\n==================\n".getBytes());
+            outputStream.write(("\n"+DIVIDER+"\n").getBytes());
             outputStream.write(usertxt.getBytes());
             outputStream.write("\n\n\n\n".getBytes());
             outputStream.close();
@@ -775,27 +822,42 @@ public class JediMindTrick extends AppCompatActivity {
     private void dumpText() {
         saveText();
         clear_text_1();
+
+        setNumberOfNotes();
     }
     private void clear_text_1() {
         EditText user_text = (EditText) findViewById(R.id.editText);
         user_text.getText().clear();
     }
 
+    public void deleteNotes() {
+        new File(getFilesDir(), filename).delete();
+
+        setNumberOfNotes();
+
+        Toast toast = Toast.makeText(this, "Notes Cleared", Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.CENTER, 0, 0);
+        toast.show();
+    }
+
     public static class ConfirmDelete extends DialogFragment {
+
+        private JediMindTrick parent;
+
+        @Override
+        public void onAttach(Context context) {
+            super.onAttach(context);
+            parent = (JediMindTrick) context;
+        }
+
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
-            Bundle args = getArguments();
-            final String todelete = args.getString("PATH_TO_DELETE");
-
             // Use the Builder class for convenient dialog construction
             AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
             builder.setMessage("Clear all notes?")
                     .setPositiveButton("Clear", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
-                            new File(todelete).delete();
-                            Toast toast = Toast.makeText(getContext(), "Notes Cleared", Toast.LENGTH_SHORT);
-                            toast.setGravity(Gravity.CENTER, 0, 0);
-                            toast.show();
+                            parent.deleteNotes();
                         }
                     })
                     .setNegativeButton("No", new DialogInterface.OnClickListener() {
@@ -810,9 +872,6 @@ public class JediMindTrick extends AppCompatActivity {
 
     private void deleteSavedNotes() {
         DialogFragment dialogFragment = new ConfirmDelete();
-        Bundle args = new Bundle();
-        args.putString("PATH_TO_DELETE", new File(getFilesDir(), filename).getAbsolutePath());
-        dialogFragment.setArguments(args);
         dialogFragment.show(getSupportFragmentManager(), "confirmdialog_tag");
     }
 
