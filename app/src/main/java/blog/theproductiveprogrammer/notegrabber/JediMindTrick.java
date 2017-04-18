@@ -5,10 +5,32 @@
  */
 
 /**
+ * Welcome young Paduan! I see
+ * great potential in you. Use
+ * the force, you will, and
+ * become great and powerful!
+ * Guide you, I will, in this
+ * new way until you have
+ * mastered - the Jedi Mind
+ * Trick...
+ *
+ * The "Jedi Mind Trick" is a
+ * method for learning anything
+ * new. For software guys and
+ * gals like us, learning is a
+ * key skill which is why I
+ * think this method is
+ * potential dynamite - almost a
+ * super power we can use.
+ */
+
+/**
  * jedi-mind-trick.jpg
  */
 
 /**
+ * *_Some History_*
+ *
  * I've been interested in
  * productivity for years. As part
  * of my quest to become more
@@ -20,22 +42,22 @@
  */
 
 /**
- * interviewed people we considered
- * as "highly productive"
- * programmers in an attempt to
- * discover what sets them apart.
+ * ...interviewed people we
+ * considered as "highly
+ * productive" programmers in an
+ * attempt to discover what sets
+ * them apart.
  *
  * One programmer whom we
- * interviewed was the completely
- * amazing is the owner of India's
+ * interviewed was the _*completely
+ * amazing*_ owner of India's
  * most successful accounting
- * package - Tally. In India, Tally
+ * package - *Tally*. In India, Tally
  * is ubiquitous. I have seen Tally
  * in small and dingy warehouses,
- * in brightly lit and expensive
+ * in brightly lit, expensive
  * high-end shops, in mom-and-pop
- * stores, and even in a police
- * station!
+ * stores, and in a police station!
  *
  * BG, the owner of Tally
  * solutions, was for many years
@@ -50,50 +72,72 @@
  */
 
 /**
- * "How do you learn new things?"
+ * So of course we interviewed
+ * him as part of our research.
+ *
+ * "*__How do you learn new things?__*"
  * is one of the standard questions
- * we ask in our interviews. BG's
- * answer, however, was unexpected
- * and counterintuitive.
+ * we ask in our interviews.
+ * We've got some good responses
+ * to this one including the
+ * importance of blocking time
+ * off and working on the
+ * fundamentals.
+ *
+ * BG's answer, however, was
+ * pretty unexpected and took me
+ * by surprise.
  *
  * "Whenever I'm learning
- * something new," BG said, "I
- * start by trying to guess how it
+ * something new," he said, "I
+ * start by _trying to guess_ how it
  * will work and then see how well
- * my guess pans out"
+ * my guess pans out."
  *
  * "For example," he continued,
  * "When C++ introduced exceptions
  * I was excited to try them out.
- * But I started with trying to
- * guess what the syntax of a C++
- * exception would be before going
+ * But I _*started*_ by trying to
+ * _guess_ what the syntax of a C++
+ * exception would be _*before*_ going
  * to look at the new standard."
  *
  * I nodded calmly, not wanting to
  * break the interview flow, but
  * inside I was in turmoil.
  *
- * WHY WOULD YOU DO THAT? I wanted
- * to yell, IT'S A WASTE OF TIME!
- * IT'S CRAZY!
+ * *WHY WOULD YOU DO THAT?* I wanted
+ * to ask, *IT'S A WASTE OF TIME!
+ * IT'S SILLY TO BE GUESSING
+ * WHEN YOU CAN'T POSSIBLY KNOW!*
  *
- * Instead, I waited for the
+ * But instead, I waited for the
  * standard two second beat to let
- * him complete the thought if he
- * had more to say. Part of our
- * interview process was never
- * to challenge anything because
- * it leads to people shutting
- * down and not sharing things
- * they feel they cannot defend.
+ * the interview subject complete
+ * the thought if he had more to
+ * say and moved on to the next
+ * question.
  *
- * Another principle was not to
+ * *___Part of our interview rules
+ * was never to challenge
+ * _anything_ a subject said in
+ * any way. This was because
+ * our subjects found it hard
+ * enough to talk about their
+ * practices and habits and even
+ * small challenges caused some of
+ * them to shut down and stop
+ * sharing anything they could
+ * not adequately explain or
+ * defend.___*
+ *
+ * Another rule was not to
  * discard anything - even if it
  * seemed counterintuitive -
  * without trying it out.
  *
- * So I tried it out...
+ * So, silly as I found it, I
+ * tried BG's method out...
  */
 
 /**
@@ -101,11 +145,11 @@
  */
 
 /**
- * ...and it worked! And worked
- * brilliantly. I found learning
- * new systems, new
- * technologies, almost anything
- * was much easier this way.
+ * ...*__and it worked!__*
+ * And it worked brilliantly
+ * well too! I found learning
+ * to be more pleasant, fun, and
+ * effective using this method.
  */
 
 /**
@@ -113,10 +157,13 @@
  */
 
 /**
- * _Why does it work_? Well
- * after using it for a while
- * I think I understand. Here's
- * what happens.
+ * _But...but *why* does it work_?
+ * Well after using it for a
+ * while I think I understand.
+ *
+ * *_Why it Works_*
+ *
+ * Here's what happens.
  *
  * There are basically three
  * ways to learn:
@@ -126,10 +173,19 @@
  * repetition.png
  */
 /**
+ * (This is boring and not very
+ * effective)
+ */
+/**
  *  2. By heightened emotion
  */
 /**
- * hot-milk.png
+ * hot-stove.png
+ */
+/**
+ * (This is HIGHLY effective but
+ * sometimes difficult to set up
+ * in a learning environment)
  */
 /**
  *  3. By association with what
@@ -139,8 +195,15 @@
  * baker-baker.png
  */
 /**
- * The Baker/Baker paradox
- * illustrates this perfectly.
+ * (This is reasonably effective
+ * and quite fun!)
+ */
+/**
+ * The association method needs
+ * a bit more explaination and
+ * the [href=http://io9.gizmodo.com/the-baker-baker-effect-explains-why-youre-awkward-at-pa-1671628340](Baker/Baker) paradox
+ * illustrates it perfectly.
+ *
  * The way it goes is this.
  *
  * A researcher shows two people
@@ -172,6 +235,7 @@
  * Hence we can remember it far
  * more easily without needing a
  * lot of repetitions.
+ *
  */
 /**
  * So now the idea of "guessing"
@@ -183,17 +247,22 @@
  * needing repetition to
  * association which is far more
  * powerful.
+ *
+ * Another side-effect of
+ * "guessing" is it [href=https://en.wikipedia.org/wiki/Active_recall](forces us to
+ * recall) what we already think
+ * we know and helps solidify
+ * our understanding.
  */
 
 /**
  * What about emotion? Well we
- * realized that discounting the
- * emotional part of learning
- * was a mistake - it is greatly
- * helpful if we are invested
- * and truly care about the
- * outcome of the things we are
- * learning.
+ * realized that we have a
+ * simple way to incorporate
+ * emotion in learning - pick an
+ * outcome that we are invested
+ * in and truly care about that
+ * the learning with _give_ us.
  *
  * How do we do this? By
  * applying the learning
@@ -206,21 +275,21 @@
  * independent of learning.
  */
 /**
- * Now the entire Jedi Mind
+ * *___So now the entire Jedi Mind
  * trick for learning goes as
  * follows:
- * 1. Pick a goal we really care
- *    about. This must be
+ * 1. *Pick a goal we really care
+ *    about*. This must be
  *    something we really want
  *    and that we think can be
  *    accomplished by learning
  *    whatever we have taken up.
- * 2. Make a guess as to how to
- *    proceed (and be confident
+ * 2. *Make a guess as to how to
+ *    proceed* (and be confident
  *    about it like a Jedi).
- * 3. Read/experiment and either
- *    confirm or correct your
- *    guess.
+ * 3. *Read/experiment and either
+ *    confirm or correct our
+ *    guess*.___*
  */
 /**
  * To show you how it works, I
@@ -236,44 +305,60 @@
  *
  * Now I have done iOS
  * programming but I've never
- * touched Android. I have no
- * idea how it works besides a
+ * touched Android. I have _no
+ * idea_ how it works besides a
  * vague notion it uses Java. So
- * this is a good test for us to
- * walk together.
+ * this seems like a good test
+ * for us to walk together.
  */
 /**
- * G:I want an andriod app similar to
- * the excellent "off the mind"
- * where I can quickly drop in
- * notes. I don't want an app
- * with lots of options, I just
- * need to single-touch, type,
- * forget.
+ * *__Step 1: Set a Goal__*
+ */
+/**
+ * goal.png:I want an andriod app
+ * similar to the excellent "off
+ * the mind" where I can quickly
+ * drop in notes. I don't want
+ * an app with lots of options,
+ * I just need to single-touch,
+ * type, forget.
  *
  * This is the app I built in
  * half a day going from ZERO
  * knowledge of Android to
- * publishing on the Play Store:
+ * having a useful app on the
+ * Play Store:
  */
 /**
  * note-grabber-demo.gif
  */
 /**
- * The app is available here:
- * https://play.google.com/store/apps/details?id=blog.theproductiveprogrammer.notegrabber
- *
- * And now I will show you how
- * it was built by using the
+ * You can see and use the app
+ * by clicking on the following link:
+ */
+/**
+ * 12.app-icon.png [href=https://play.google.com/store/apps/details?id=blog.theproductiveprogrammer.notegrabber]
+ */
+/**
+ * So now follow along as we
+ * build the app by using the
  * "Jedi Mind Trick" of simply
  * making predictions and
  * checking them.
  *
- * P:Android is a java platform so
+ * *__Step 2: Make a Jedi Prediction__*
+ * (otherwise known as a guess!)
+ *
+ * *__Step 3: Confirm or Correct__*
+ * (and repeat!)
+ */
+/**
+ * prediction.png:Android is a java platform so
  * I should be able to use Eclipse.
  * I will need some emulators.
- *
- * X: The best way to develop an
+ */
+/**
+ * prediction-wrong.png: The best way to develop an
  * andriod app is to use "the
  * andriod studio". Apparently it
  * organizes projects better and is
@@ -284,48 +369,56 @@
  *
  * So I'm going ahead and
  * installing Android Studio.
- *
- * P: Android studio will give me a
+ */
+/**
+ * prediction.png: Android studio will give me a
  * skeleton template to create an
  * app.
- *
- * Y: Yup. Create a new Android
+ */
+/**
+ * prediction-right.png: Yup. Create a new Android
  * Project is the first thing on
  * the list. Let's go!
- *
- * P: Will create a project with
+ */
+/**
+ * prediction.png: Will create a project with
  * lots of files and a skeleton app
  * that will show "hello world".
- *
- * X: Asking me to choose something
+ */
+/**
+ * prediction-wrong.png: Asking me to choose something
  * called "Activity". Not sure what
  * that is so let's guess.
- *
- * P: "Activity" is a set of
+ */
+/**
+ * prediction.png: "Activity" is a set of
  * widgets and handlers to perform
  * some basic user interaction
  * behaviours.
  *
  * Selecting "Empty activity" and
  * going ahead.
- *
- * Y: The next page seems to say
+ */
+/**
+ * prediction-right.png: The next page seems to say
  * that an "Activity" is a class
  * with a layout which I assume
  * contains the widgets.
- *
- * Y: Hah! Got a "Hello world!" :-)
+ */
+/**
+ * prediction-right.png: Hah! Got a "Hello world!" :-)
  */
 /**
  * 01.hello-world.png
  */
 /**
- * P: The class will contain
+ * prediction.png: The class will contain
  * methods that hook into the
  * layout and respond to user
  * actions.
- *
- * X: The class does not seem to
+ */
+/**
+ * prediction-wrong.png: The class does not seem to
  * contain hook methods for the
  * layout. It contains one
  * lifecycle method (onCreate).
@@ -350,22 +443,24 @@
  */
 
 /**
- * P: I will be able to find a
+ * prediction.png: I will be able to find a
  * simple text entry widget and
  * replace the "Hello World" with
  * it.
- *
- * Y: Yup
+ */
+/**
+ * prediction-right.png: Yup
  */
 /**
  * 02.text-entry.png
  */
 /**
- * P: I can add a button to the
+ * prediction.png: I can add a button to the
  * top toolbar and respond when
  * the user clicks it.
- *
- * X: After trying to add a
+ */
+/**
+ * prediction-wrong.png: After trying to add a
  * button for a while and drag
  * it "nicely" to the toolbar it
  * just doesn't work.
@@ -389,11 +484,12 @@
  * 03.add-toolbar.png
  */
 /**
- * P: I can add buttons to the
+ * prediction.png: I can add buttons to the
  * "toolbar" that I couldn't to
  * the "actionbar".
- *
- * X: Nope! I still can't.
+ */
+/**
+ * prediction-wrong.png: Nope! I still can't.
  *
  * Turns out that I need to add
  * a "actions" to the toolbar
@@ -408,12 +504,14 @@
  * text box! The first few lines
  * of the text box are hidden
  * under the toolbar.
- *
- * P: There will be a simple
+ */
+/**
+ * prediction.png: There will be a simple
  * layout that can stack one
  * component and then the other
- *
- * X: It turns out that the
+ */
+/**
+ * prediction-wrong.png: It turns out that the
  * simplest way is simply to add
  * a padding to the top of the
  * editbox as the toolbar is
@@ -423,18 +521,15 @@
  * 05.fix-editbox.png
  */
 /**
- * P: When the action button
- * (the email) is clicked I can
- * access the typed in text.
- *
- * P: The control type is "Multi
+ * prediction.png: The control type is "Multi
  * line Text" but in order to
  * access it I will need to know
  * it's class. I see a "EditText"
  * which looks hopeful so let's try
  * that.
- *
- * Y: Yup it works:
+ */
+/**
+ * prediction-right.png: Yup it works:
  */
 /**
  * 06.get-usertext.png
@@ -443,11 +538,13 @@
  * Now I need a way to store this
  * so we don't lose it when the app
  * quits.
- *
- * P: The way to save data is to
+ */
+/**
+ * prediction.png: The way to save data is to
  * open a file and write to it.
- *
- * X: There are actually _three_
+ */
+/**
+ * prediction-wrong.png: There are actually _three_
  * ways to save data:
  *  1. Key-value properties
  *  2. File (- as we guessed -)
@@ -455,20 +552,24 @@
  *
  * We'll go ahead and continue
  * saving our notes in a file.
- *
- * P: There will be a standard
+ */
+/**
+ * prediction.png: There will be a standard
  * location we can use to store
  * our files.
- *
- * Y: Yup. There's a
+ */
+/**
+ * prediction-right.png: Yup. There's a
  * `getFilesDir()` method that
  * gives us the location we
  * need.
- *
- * P: We can save and read the
+ */
+/**
+ * prediction.png: We can save and read the
  * file data easily.
- *
- * Y: Yup. Using input and
+ */
+/**
+ * prediction-right.png: Yup. Using input and
  * output streams with simple
  * code samples.
  */
@@ -488,11 +589,13 @@
  * I also need a simple way to
  * clear all notes. For this, I
  * will add a "delete" button.
- *
- * P: There will be a simple way
+ */
+/**
+ * prediction.png: There will be a simple way
  * to delete files by name.
- *
- * Y: File.delete(). :-D
+ */
+/**
+ * prediction-right.png: File.delete(). :-D
  *
  * (As all this code is
  * similar to what we've done
@@ -506,12 +609,14 @@
  * start we bring up the
  * keyboard and whenever we stop
  * we save and clear.
- *
- * P: To bring up the keyboard I
+ */
+/**
+ * prediction.png: To bring up the keyboard I
  * can set focus to the EditText
  * on start.
- *
- * X: I can bring up the keyboard
+ */
+/**
+ * prediction-wrong.png: I can bring up the keyboard
  * when an activity is launched.
  * After reading a bit more on
  * "Activity" this makes sense -
@@ -523,11 +628,12 @@
  * 08.show-keyboard.png
  */
 /**
- * P: There will be an event I
+ * prediction.png: There will be an event I
  * can override for stopping
  * the app.
- *
- * Y: Yup. It's called onPause()
+ */
+/**
+ * prediction-right.png: Yup. It's called onPause()
  *
  * Moving the code to
  * onPause()...
@@ -537,12 +643,14 @@
  * like to do this within the
  * app rather than going "out"
  * to the _Home_/_Back_ button.
- *
- * P: I can add a "back" action
+ */
+/**
+ * prediction.png: I can add a "back" action
  * to the toolbar and position
  * it to the left.
- *
- * X: The toolbar is structured
+ */
+/**
+ * prediction-wrong.png: The toolbar is structured
  * and has these components:
  *  (a) Navigation
  *  (b) Icon
@@ -555,11 +663,13 @@
  * application. This will
  * trigger the onPause and save
  * our note.
- *
- * P: There is a simple way to
+ */
+/**
+ * prediction.png: There is a simple way to
  * dismiss an application.
- *
- * Y: Yes, we simply need to
+ */
+/**
+ * prediction-right.png: Yes, we simply need to
  * close all current dialogs etc
  * and move the task to the
  * back of the activity stack.
@@ -581,12 +691,14 @@
  * that would look so let's go
  * with a simple confirmation
  * for now.
- *
- * P: There should be some sort
+ */
+/**
+ * prediction.png: There should be some sort
  * of simple MessageBox class I
  * can use.
- *
- * X: Apparently not so simple.
+ */
+/**
+ * prediction-wrong.png: Apparently not so simple.
  * I have to create a
  * "DialogFragment" and use
  * that. This is because we can
@@ -596,13 +708,15 @@
  * 'standard' sub-view but it's
  * been generalized to a
  * fragment.
- *
- * P: The fragment itself will
+ */
+/**
+ * prediction.png: The fragment itself will
  * handle the confirm/ignore
  * buttons so we make it an
  * inner class.
- *
- * Y: Yup.
+ */
+/**
+ * prediction-right.png: Yup.
  */
 /**
  * 10.confirm-dialog.png
@@ -611,11 +725,13 @@
  * Now all that's left is to
  * send an email when the email
  * button is clicked!
- *
- * P: There must be a class that
+ */
+/**
+ * prediction.png: There must be a class that
  * helps us send emails.
- *
- * X: The better way is to
+ */
+/**
+ * prediction-wrong.png: The better way is to
  * register an 'intent' and
  * allow the user to use his or
  * her existing client.
@@ -633,23 +749,27 @@
  * application!
  */
 /**
- * 12.app-icon.png
+ * 12.app-icon.png [href=https://play.google.com/store/apps/details?id=blog.theproductiveprogrammer.notegrabber]
  */
 /**
  * Now the last thing to do is
  * publish it on the playstore.
- *
- * P: It will be easy and free
+ */
+/**
+ * prediction.png: It will be easy and free
  * to publish the app on the
  * playstore.
- *
- * X: Awp!! I have to pay to get
+ */
+/**
+ * prediction-wrong.png: Awp!! I have to pay to get
  * my free app shared! Sigh.
  * Otherwise it was easy enough!
  * It's available here:
- *
- * https://play.google.com/store/apps/details?id=blog.theproductiveprogrammer.notegrabber
- *
+ */
+/**
+ * note-grabber-round.png [href=https://play.google.com/store/apps/details?id=blog.theproductiveprogrammer.notegrabber]
+ */
+/**
  * Well - from Android Zero to
  * Hero in half a day! All
  * because I can use the Jedi
@@ -658,7 +778,22 @@
  * Let me know how it works out
  * for you and if you have any
  * doubts in the comments.
- *
+ */
+/**
+ * Addendum:
+ *  After uploading this to the
+ *  app store and trying it out
+ *  I have made a few more minor
+ *  changes:
+ *      1. Renamed the main class
+ *         to JediMindTrick.
+ *      2. Added a "number of notes"
+ *         indicator.
+ *  Because both these are trivial
+ *  changes I am not updating
+ *  this blog post. However the
+ *  original code can be found
+ *  in the github repository.
  */
 package blog.theproductiveprogrammer.notegrabber;
 
