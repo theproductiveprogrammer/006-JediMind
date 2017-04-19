@@ -11,17 +11,18 @@
  * become great and powerful!
  * Guide you, I will, in this
  * new way until you have
- * mastered - the Jedi Mind
- * Trick...
+ * mastered - _The Jedi Mind
+ * Trick_...
  *
  * The "Jedi Mind Trick" is a
  * method for learning anything
  * new. For software guys and
- * gals like us, learning is a
- * key skill which is why I
- * think this method is
- * potential dynamite - almost a
- * super power we can use.
+ * gals like us, being able to
+ * learn is one of our key
+ * skills which is why I think
+ * this method is potential
+ * dynamite - almost a super
+ * power we can use.
  */
 
 /**
@@ -38,7 +39,7 @@
  */
 
 /**
- * say-hi-to-gk.png
+ * say-hi-to-gk.png[href=http://www.sameeksha.biz/about/]
  */
 
 /**
@@ -49,17 +50,18 @@
  * them apart.
  *
  * One programmer whom we
- * interviewed was the _*completely
+ * interviewed is the _*completely
  * amazing*_ owner of India's
  * most successful accounting
  * package - *Tally*. In India, Tally
- * is ubiquitous. I have seen Tally
+ * is ubiquitous. You see Tally
  * in small and dingy warehouses,
  * in brightly lit, expensive
  * high-end shops, in mom-and-pop
- * stores, and in a police station!
+ * stores, and I've even seen it
+ * once in a police station!
  *
- * BG, the owner of Tally
+ * And BG, the owner of Tally
  * solutions, was for many years
  * also the sole developer, tester,
  * and bug-fixer. He is an
@@ -72,7 +74,7 @@
  */
 
 /**
- * So of course we interviewed
+ * So, of course, we interviewed
  * him as part of our research.
  *
  * "*__How do you learn new things?__*"
@@ -147,8 +149,8 @@
 /**
  * ...*__and it worked!__*
  * And it worked brilliantly
- * well too! I found learning
- * to be more pleasant, fun, and
+ * too! I found learning to be
+ * more pleasant, fun, and
  * effective using this method.
  */
 
@@ -159,7 +161,7 @@
 /**
  * _But...but *why* does it work_?
  * Well after using it for a
- * while I think I understand.
+ * while here's my best guess.
  *
  * *_Why it Works_*
  *
@@ -218,7 +220,7 @@
  * the accompanying word.
  *
  * The person who was told the
- * man's worked as a baker is
+ * man worked as a baker is
  * much more likely to remember
  * it than the person who was
  * given his surname. Why should
@@ -233,8 +235,7 @@
  * strong net of associations
  * already in our memories.
  * Hence we can remember it far
- * more easily without needing a
- * lot of repetitions.
+ * more simply and easily.
  *
  */
 /**
@@ -252,20 +253,21 @@
  * "guessing" is it [href=https://en.wikipedia.org/wiki/Active_recall](forces us to
  * recall) what we already think
  * we know and helps solidify
- * our understanding.
+ * our understanding (_Active
+ * Recall_).
  */
 
 /**
- * What about emotion? Well we
- * realized that we have a
+ * What about emotion? Well a
  * simple way to incorporate
- * emotion in learning - pick an
- * outcome that we are invested
- * in and truly care about that
- * the learning with _give_ us.
+ * emotion in learning is to
+ * pick an outcome that we are
+ * invested in and truly care
+ * about that the learning with
+ * _give_ us.
  *
  * How do we do this? By
- * applying the learning
+ * _applying_ the learning
  * immediatly into a goal we
  * truly desire. The goal itself
  * must be important to us - not
@@ -275,9 +277,12 @@
  * independent of learning.
  */
 /**
- * *___So now the entire Jedi Mind
- * trick for learning goes as
- * follows:
+ * *___.
+ *
+ * So the entire
+ *      "_Jedi Mind Trick_"
+ * for learning goes as follows:
+ *
  * 1. *Pick a goal we really care
  *    about*. This must be
  *    something we really want
@@ -289,16 +294,18 @@
  *    about it like a Jedi).
  * 3. *Read/experiment and either
  *    confirm or correct our
- *    guess*.___*
+ *    guess*.
+ *
+ * .___*
  */
 /**
- * To show you how it works, I
- * will start the process now
- * and walk it with you.
+ * To show you how it works, let
+ * us walk through an example
+ * together.
  *
  * First, let's pick something
  * useful to learn. Because I've
- * bought my first Android
+ * just bought my first Android
  * phone, I think Android
  * programming would be a good
  * subject.
@@ -316,14 +323,20 @@
  */
 /**
  * goal.png:I want an andriod app
- * similar to the excellent "off
- * the mind" where I can quickly
- * drop in notes. I don't want
+ * similar to the excellent [href=https://itunes.apple.com/app/off-the-mind/id689658675]("off
+ * the mind") where I can quickly
+ * drop in notes. I couldn't
+ * find a similar note taking
+ * app on the Android Playstore
+ * so I really need to make one.
+ * And it's ideal to build
+ * because I don't want
  * an app with lots of options,
  * I just need to single-touch,
  * type, forget.
  *
- * This is the app I built in
+ * (Using the "Jedi Mind Trick"
+ * here is the app I built in
  * half a day going from ZERO
  * knowledge of Android to
  * having a useful app on the
@@ -333,7 +346,7 @@
  * note-grabber-demo.gif
  */
 /**
- * You can see and use the app
+ * You can download and use the app
  * by clicking on the following link:
  */
 /**
@@ -344,7 +357,7 @@
  * build the app by using the
  * "Jedi Mind Trick" of simply
  * making predictions and
- * checking them.
+ * checking them.)
  *
  * *__Step 2: Make a Jedi Prediction__*
  * (otherwise known as a guess!)
@@ -438,8 +451,11 @@
  */
 
 /**
- * (Moving this text to the
- * JediMindTrick.java file)
+ * (Moving this text from
+ * "learn.txt" to the
+ * MainActivity.java file so
+ * that it can be published on
+ * my blog as working code).
  */
 
 /**
@@ -467,12 +483,12 @@
  *
  * The top bar is not a
  * "toolbar" but an "actionbar".
- * According to the
+ * Also according to the
  * documentation, we should not
- * use the action bar because it
- * behaves differently across
- * different releases of
- * Android. Instead we should
+ * be using the action bar
+ * because it behaves
+ * differently across releases
+ * of Android. Instead we should
  * remove the action bar and
  * replace it with a library
  * "toolbar" which will behave
@@ -492,7 +508,7 @@
  * prediction-wrong.png: Nope! I still can't.
  *
  * Turns out that I need to add
- * a "actions" to the toolbar
+ * "actions" to the toolbar
  * which are menu items.
  */
 /**
@@ -580,11 +596,12 @@
  * Whenever I save now, it
  * appends to the file. So I
  * need to do two things:
- * 1. Clear the text after each
+ * 1. Clear the text in the
+ *    input box after each
  *    save.
  * 2. Put a "header" between
  *    each save to differentiate
- *    them.
+ *    notes.
  *
  * I also need a simple way to
  * clear all notes. For this, I
@@ -605,10 +622,12 @@
  */
 /**
  * Now we make the app really
- * useful! How? Well when we
- * start we bring up the
- * keyboard and whenever we stop
- * we save and clear.
+ * useful! How? Well, for
+ * starters, it should be ready
+ * to type with a single click!
+ * So we need to bring up the
+ * keyboard on start and save
+ * and clear whenever we stop.
  */
 /**
  * prediction.png: To bring up the keyboard I
@@ -638,11 +657,12 @@
  * Moving the code to
  * onPause()...
  *
- * When I use it, I save notes
- * by dismissing the app. I'd
- * like to do this within the
- * app rather than going "out"
- * to the _Home_/_Back_ button.
+ * When I use the app now, I
+ * have to save notes by
+ * dismissing the app. I'd like
+ * to do this within the app
+ * rather than going "out" to
+ * the _Home_/_Back_ button.
  */
 /**
  * prediction.png: I can add a "back" action
@@ -650,8 +670,10 @@
  * it to the left.
  */
 /**
- * prediction-wrong.png: The toolbar is structured
- * and has these components:
+ * prediction-wrong.png: Nope we can't add
+ * actions to the left. Instead
+ * the toolbar is structured and
+ * has these components:
  *  (a) Navigation
  *  (b) Icon
  *  (c) Title/Subtitle
@@ -770,6 +792,8 @@
  * note-grabber-round.png [href=https://play.google.com/store/apps/details?id=blog.theproductiveprogrammer.notegrabber]
  */
 /**
+ * *_Zero to Hero!_*
+ *
  * Well - from Android Zero to
  * Hero in half a day! All
  * because I can use the Jedi
@@ -792,8 +816,8 @@
  *  Because both these are trivial
  *  changes I am not updating
  *  this blog post. However the
- *  original code can be found
- *  in the github repository.
+ *  older code can be found in
+ *  the github repository history.
  */
 package blog.theproductiveprogrammer.notegrabber;
 
