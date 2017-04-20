@@ -30,6 +30,12 @@
  */
 
 /**
+ * (Shoutout to Chris Chiesa -
+ * the speed typing demon - who
+ * asked how I learn new tech.
+ * Here you go Chris - all my
+ * secrets laid bare! :-))
+ *
  * *_Some History_*
  *
  * I've been interested in
