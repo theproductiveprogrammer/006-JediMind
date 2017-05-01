@@ -925,31 +925,18 @@ public class JediMindTrick extends AppCompatActivity {
             deleteSavedNotes();
             return true;
         }
-        if(item.getItemId() == R.id.shareNotes) {
+        if(item.getItemId() == R.id.previewNotes) {
             dumpText();
-            return shareText_1();
+            return previewNotes_1();
         }
         return super.onOptionsItemSelected(item);
     }
 
-    private boolean shareText_1() {
-        String subject = "Note Grabber (" + getCurrentTimeStamp() + ")";
-        String body = loadText();
-
-        Intent i = new Intent(Intent.ACTION_SEND);
-        i.setType("text/plain");
-        i.putExtra(Intent.EXTRA_TEXT, body);
-        i.putExtra(Intent.EXTRA_SUBJECT, subject);
-        try {
-            startActivity(Intent.createChooser(i, "Export to..."));
-            return true;
-        } catch (android.content.ActivityNotFoundException ex) {
-            Toast.makeText(this,
-                    "There are no apps to share with...",
-                    Toast.LENGTH_SHORT).show();
-            return false;
-        }
-
+    private boolean previewNotes_1() {
+        Intent intent = new Intent(this, PreviewNotes.class);
+        intent.putExtra(Intent.EXTRA_TEXT, loadText());
+        startActivity(intent);
+        return true;
     }
 
     @Override

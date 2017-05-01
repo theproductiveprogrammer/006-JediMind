@@ -4,14 +4,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/shareNotes"
-        android:icon="@android:drawable/ic_menu_share"
-        android:title="Share"
-        app:showAsAction="always" />
-    <item
         android:id="@+id/exportEmail"
         android:icon="@android:drawable/sym_action_email"
         android:title="Send Email"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/previewNotes"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Preview"
         app:showAsAction="always" />
     <item
         android:id="@+id/deleteNotes"
