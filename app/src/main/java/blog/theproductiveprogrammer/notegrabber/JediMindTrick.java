@@ -300,7 +300,11 @@
  *    about it like a Jedi).
  * 3. *Read/experiment and either
  *    confirm or correct our
- *    guess*.
+ *    guess*. We should read
+ *    enough to feel confident
+ *    of our understanding and
+ *    not just enough to
+ *    "correct" any mistakes.
  *
  * .___*
  */
@@ -819,6 +823,12 @@
  *         to JediMindTrick.
  *      2. Added a "number of notes"
  *         indicator.
+ *      3. Added a "Preview" to
+ *         see the notes saved so
+ *         far.
+ *      4. Added the ability to
+ *         accept data from other
+ *         applications.
  *  Because both these are trivial
  *  changes I am not updating
  *  this blog post. However the
@@ -828,10 +838,12 @@
 package blog.theproductiveprogrammer.notegrabber;
 
 import android.app.Dialog;
+import android.content.ClipData;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -871,6 +883,28 @@ public class JediMindTrick extends AppCompatActivity {
             }
         });
         setNumberOfNotes();
+
+        handleIntent();
+    }
+
+    /**
+     * [!] We accept data
+     * directly from other apps.
+     * [+] Check if there is
+     * a "text/plain" type, we
+     * use the intent data.
+     */
+    private void handleIntent() {
+        Intent intent = getIntent();
+        if(intent == null) return;
+        String type = intent.getType();
+        if(type != null && type.equals("text/plain")) {
+            String data = intent.getStringExtra(Intent.EXTRA_TEXT);
+            if(data != null) {
+                EditText edittxt = (EditText) findViewById(R.id.editText);
+                edittxt.setText(data);
+            }
+        }
     }
 
     private void setNumberOfNotes() {
