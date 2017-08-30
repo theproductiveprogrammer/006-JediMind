@@ -5,10 +5,10 @@
  */
 
 /**
- * Welcome young Paduan! I see
- * great potential in you. Use
- * the force, you will, and
- * become great and powerful!
+ * Welcome young Paduan! Great
+ * potential I sense in you to
+ * use the force and become
+ * amazing and powerful!
  * Guide you, I will, in this
  * new way until you have
  * mastered - _The Jedi Mind
