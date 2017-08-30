@@ -6,7 +6,7 @@
 
 /**
  * Welcome young Paduan! Great
- * potential I sense in you to
+ * potential I sense in you, to
  * use the force and become
  * amazing and powerful!
  * Guide you, I will, in this
